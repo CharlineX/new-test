@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" /> 
+		<title>学友通登录</title>
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/bootstrap-theme.css">
+		<link rel="stylesheet" type="text/css" href="../css/login.css">
+	</head>
+	<body>
+		<header></header>
+		<div class="xyt">
+			<div class="xyt_con">
+				<div class="login">
+					<div class="an">
+						<input type="button" class="btn btn-primary" value="学生" />
+						<input type="button" class="btn btn-default" value="用户" />
+						<input type="button" class="btn btn-default" value="老师" />
+					</div>
+					<div class="bl_con form-horizontal">
+						<div class="log_con form-group form-inline" style="display: block">
+							<div class="picture"><img src="../img/weChat.png"></div>
+							<button class="btn btn-primary user_login_btn">登录</button>
+						</div>
+						<div class="log_con form-group form-inline">
+							<div class="picture"><img src="../img/weChat.png"></div>
+							<button class="btn btn-primary user_login_btn">申请加入</button>
+						</div>
+						<div class="log_con ">
+							<div class="userName form-group form-inline">
+								<label class="control-label col-sm-3">登录名&nbsp;:</label>
+								<input class="form-control" type="text" name="" placeholder="请输入登录名">
+							</div>
+							<div class="passWord form-group form-inline">
+								<label class="control-label col-sm-3">密&nbsp;&nbsp;码&nbsp;:</label>
+								<input class="form-control" type="password" name="" placeholder="请输入密码">
+							</div>
+							<button class="btn btn-primary user_login_btn">登录</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<footer></footer>
+		<script type="text/javascript" src="../js/jquery@2.2.4.min.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script type="text/javascript">
+			window.onload= function () {
+            var aIpt=$('.an input');
+            var aDiv=$('.log_con');
+//            console.log(aIpt,aDiv);
+            for(var i=0;i<aIpt.length;i++){
+                aIpt[i].index=i;
+                aIpt[i].onclick= function () {
+                    //先置之于死地 而后生
+                    //干掉所有
+                    for(var i=0;i<aIpt.length;i++){
+                        $(aIpt[i]).removeClass("btn-primary");
+                        $(aIpt[i]).addClass("btn-default");
+                        aDiv[i].style.display='none';
+                    }
+                    //点亮自己
+                    $(aIpt[this.index]).removeClass("btn-primary");
+                    $(aIpt[this.index]).addClass("btn-primary");
+                    //让谁显示出来
+                    aDiv[this.index].style.display='block';
+                }
+            }
+        }
+		</script>
+	</body>
+</html>

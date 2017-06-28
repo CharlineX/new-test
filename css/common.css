@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	color:#333; font-famaly:微软雅黑;
+	}
+ul,li{
+	list-style:none; margin:0; padding:0;
+	}
+.clear{ 
+	height:0; border:0; clear:both;
+	}
+/*顶部导航*/
+.navbar-fixed-top{
+	background:#4c8ede;
+	}
+.navbar-fixed-top .navbar-nav{
+	width:1190px;
+	margin:0 auto;
+	float:none;
+	}
+.navbar-fixed-top .navbar-nav li{
+	text-align:center;
+	}
+.navbar-fixed-top .navbar-nav li a{
+	color:#fff;
+	font-size:16px;
+	width:100px;
+	}
+.navbar-fixed-top .navbar-nav li a:hover, .navbar-fixed-top .navbar-nav li a.active{
+	background:#81ade2;
+	color:#000;
+}
+
+/*主体内容*/
+.main_body{
+	width:100%;
+	margin:50px auto 0 auto;
+	background:url(../img/bg02.jpg);
+	background-size:25% 850px;
+}
+.content_center{
+	padding:50px 50px 0 50px;
+	width:1190px;
+	min-height:988px;
+	margin:0 auto;
+	background:#eff2f5;
+}
+/*添加新的****的按钮*/
+.new_exp{
+	display: block;
+	/*margin: 0 auto;*/
+	margin-top: 20px;
+}
+/*翻页条*/
+.pagination_box{
+	width: 80%;
+	margin: 0 auto	;
+	position: relative;
+}
+.page-jump{
+	position: absolute;
+	bottom: 0;
+}
+.page-jump .input{
+	width:50px;
+}
+/*页尾*/
+footer{
+	background-color: #4b8edd;
+}
+.foot_con{
+	width: 80%;
+	margin: 0 auto;
+	line-height: 50px;
+	font-size: 14px;
+	color: #555;
+	text-align: center;
+}
+/*分页导航样式*/
+.tab-title{
+	font-weight: bold;
+	font-size: 20px;
+}
+.tab-content{
+	background-color: #ffffff;
+	padding: 10px;
+}
+span.key_mark{
+	float:left;
+	line-height:34px;
+	color:red;
+	margin-right: 15px;
+}
+.glyphicon{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+/*调整select选择框和textarea的宽度*/
+.form-control.select-choose{
+	width: 18%;
+
+}
+.form-control.textTpye{
+	width: 70%;
+	height: 150px;
+	resize: none;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+/*预览描述部分的pre展示*/
+.form-control.pre_describ{
+	display: block;
+	width: 70%;
+	height: 150px;
+	padding: 9.5px;
+	margin: 0 0 10px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+	word-break: break-all;
+	word-wrap: break-word;
+	/*background-color: #f5f5f5;*/
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+.form-control.pre_describ_little{
+	display: block;
+	width: 70%;
+	height: 50px;
+	padding: 9.5px;
+	margin: 0 0 10px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+	word-break: break-all;
+	word-wrap: break-word;
+	/*background-color: #f5f5f5;*/
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}

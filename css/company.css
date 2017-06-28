@@ -1,0 +1,405 @@
+.choose{
+	display: none;
+}
+/*添加边框阴影效果*/
+.message{
+	border:1px solid #CCC;
+	margin: 0 auto;
+	box-shadow:3px 4px 2px #b3b7bd;
+	box-radius:5px;
+	padding:20px 30px 50px 30px;
+	background-color: #eff2f5;
+}
+/*解决预览模块下的span的对齐问题*/
+.message span{
+	display:block;
+	float: left;
+	margin-top: 7px;
+	margin-left: 7px;
+}
+/*应聘简历样式修改*/
+.resume .el{
+	margin:0 auto;
+	padding:0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.resume .el li{
+	display: block;
+	width: 12.5%;
+	float: left;
+	list-style: none;
+	border: solid 1px #4c8ede;
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative;
+}
+/*添加阴影*/
+.re_list{
+	border:1px solid #CCC;
+	margin: 0 auto;
+	box-shadow:3px 4px 2px #b3b7bd;
+	box-radius:5px;
+	padding:20px 30px 50px 30px;
+	background-color: #eff2f5;
+}
+.reModify{
+	border:1px solid #CCC;
+	margin: 0 auto;
+	box-shadow:3px 4px 2px #b3b7bd;
+	box-radius:5px;
+	padding:50px 60px 80px 60px;
+	background-color: #eff2f5;
+}
+.resume .el.title{
+	font-weight: bold;
+}
+.resume .el li a:hover{
+	cursor: pointer;
+	text-decoration: none;
+}
+.resume .el li p{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+/*表格头部的筛选框样式*/
+.search-box{
+	width: 100%;
+	height: 40px;
+	line-height: 25px;
+	border: 1px solid #4c8ede;
+	border-bottom: none;
+}
+.job-name-filter , .resume-check-progress{
+	width: 40%;
+	height: 100%;
+	float: left;
+	margin-left: 8%;
+}
+.job-name-filter .search-title, .resume-check-progress .search-title{
+	font-weight: bold;
+	padding-top: 7px;
+	margin-bottom: 0;
+	text-align: right;
+	display: inline-block;
+}
+.job-name-filter .search-select , .resume-check-progress .search-select{
+	display: inline-block;
+	width: 50%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	margin: 0;
+}
+/*修改招聘会样式*/
+.job_fair .el{
+	margin:0 auto;
+	padding:0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.job_fair .el li{
+	display: block;
+	width: 11%;
+	float: left;
+	list-style: none;
+	border: solid 1px #4c8ede;
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative;
+}
+.job_fair .el li p{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+.job_fair .el.title{
+	font-weight: bold;
+}
+.job_fair .el li a:hover{
+	cursor: pointer;
+	text-decoration: none;
+}
+/*添加盒子阴影边框*/
+.jabfair_mod{
+	border:1px solid #CCC;
+	margin: 0 auto;
+	box-shadow:3px 4px 2px #b3b7bd;
+	box-radius:5px;
+	padding:50px 60px 80px 60px;
+	background-color: #eff2f5;
+}
+
+
+
+
+
+
+/*更改部分的样式*/
+#Jobfair .position_list_item{
+    width: 1000px;
+    height: 100px;
+}
+.position_list_item {
+    position: relative;
+    width: 960px;
+    height: 123px;
+    border-bottom: 1px dashed rgb(51,122,183);
+}
+.pli_top {
+    height: 72px;
+    background-color: #fff;
+    padding-top: 22px;
+    padding-left: 15px;
+}
+.pli_top_l {
+    width: 400px;
+    margin-right: 20px;
+}
+.fl {
+    float: left;
+}
+.pli_top_l .position_name {
+    height: 34px;
+    line-height: 28px;
+}
+.pli_top_l .position_name h2{
+	margin-top: 5px;
+	float: left;
+	font-size: 16px;
+	font-weight: 400;
+}
+.pli_top .position_link {
+    max-width: 190px;
+}
+.position_list_item .wordCut {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.pli_top a {
+    color: rgb(51,122,183);
+}
+.pli_top h2 span {
+    margin-left: 6px;
+    color: rgb(51,122,183);
+}
+.pli_top_l .position_main_info {
+    height: 28px;
+}
+.pli_top_l span.salary {
+    font-size: 16px;
+    color: #fa6041;
+    margin-right: 20px;
+}
+.pli_top_r {
+    width: 294px;
+}
+.fr {
+    float: right;
+}
+.pli_top_r .company_name {
+    height: 34px;
+    color: #e1e1e1;
+}
+.pli_top_r .company_name a{
+    font-size: 16px;
+}
+.company_name a {
+    float: left;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.pli_top_r .industry {
+    height: 28px;
+}
+.pli_btm {
+    height: 39px;
+    padding: 0 0 0 15px;
+    background-color: #fafafa;
+}
+.pli_btm_l{
+	position: absolute;
+	top: 90px;
+}
+#Jobfair .position_main_info span{
+    border: 1px solid #dcdcdc;
+    border-radius: 3px; 
+}
+.pli_btm_l span,.position_main_info span {
+    display: inline-block;
+    max-width: 184px;
+    height: 20px;
+    padding: 0 5px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #555;
+    vertical-align: middle;
+    /*color: #999;*/
+}
+.pli_btm_l span+span {
+    margin-left: 6px;
+}
+.pli_btm_r {
+    width: 294px;
+    height: 39px;
+    overflow: hidden;
+    line-height: 39px;
+}
+/*.pli_btm_r{
+	margin-left: 30px;
+}*/
+
+
+.hp_leftBox {
+	width: 705px;
+    float: left;
+    background: #fff;
+    font-size: 12px;
+}
+.blueBox {
+    background: none repeat scroll 0 0 #EEF7FF;
+    border: 1px solid #D7E3F3;
+    border-radius: 3px 3px 3px 3px;
+    min-height: 145px;
+    width: 940px;
+    margin-bottom: 10px;
+}
+.mainContent ul.mcSeperator {
+    padding: 0;
+    margin: 25px 0;
+}
+.mainContent ul.mcSeperator li.mcSeperatorLi {
+    background: url(../img/alian_line.jpg) no-repeat scroll right center transparent;
+    float: left;
+    min-height: 100px;
+    margin: 0 0 10px;
+    padding: 0;
+    width: 234px;
+}
+.mainContent .mcSeperatorLi ul {
+    list-style: disc;
+    padding: 0 12px;
+}
+.mainContent .mcSeperatorLi li {
+    color: #555555;
+    font-weight: bold;
+    height: 22px;
+    line-height: 22px;
+}
+.number {
+    color: #315aaa;
+    font-weight: bold;
+    font-family: "simsun"!important;
+}
+b{
+	font-weight: bold;
+}
+.mainContent .mcButton {
+    list-style: none;
+    /* margin-left: -10px; */
+    margin-top: 10px;
+}
+a.buttonNp {
+    float: left;
+    width: 99px;
+    height: 33px;
+    background: url(../img/new.png) no-repeat left -70px;
+}
+a.buttonZp{
+	float: left;
+    width: 99px;
+    height: 33px;
+    background: url(../img/new.png) no-repeat left 0px;
+}
+a.buttonXp{
+	float: left;
+    width: 99px;
+    height: 33px;
+    background: url(../img/new.png) no-repeat left -50px;
+}
+.open_zd_text {
+    float: left;
+    display: inline-block;
+    width: 99px;
+    height: 33px;
+    background: url(../img/new.png) no-repeat left -105px;
+    margin: 0;
+    text-align: center;
+    margin-left: 9px;
+}
+a.buttonPt {
+	float: left;
+	height: 33px;
+    width: 99px;
+    background: url(../img/rd_home_btn2.jpg) no-repeat;
+}
+.rightborder0 {
+    background-image: none !important;
+}
+a.buttonSr {
+    float: left;
+    width: 99px;
+    background: url(../img/rd_home_btn.png) no-repeat left -140px;
+}
+.open_zd_text2 {
+    background: url(../img/rd_home_btn3.jpg) no-repeat;
+}
+.clearAll {
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    visibility: hidden;
+}
+.notice{
+    width: 940px;
+    height: 30px;
+    line-height: 30px;
+    border: solid 1px #dcdcde;
+    border-radius: 2px;
+    font-size: 12px;
+    /*margin: 8px auto;*/
+    padding: 0 0 0 27px;
+}
+.notice_a {
+	margin-top: -6px;
+}
+.notice_a strong{
+    color: #6a6a6a;
+    float: left;
+}
+.textscroll{
+    width: 450px;
+    margin-left: 70px;
+    margin-top: 9px;
+}
+#scrollareo{
+    height: 30px;
+}
+.textscroll li span{
+    /*display: block;*/
+    float: right;
+    color: black;
+}

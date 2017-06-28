@@ -1,0 +1,57 @@
+.welfare_box{
+    margin: 20px 0 20px 150px;
+}
+.welfare_box ul li{
+    border: solid 1px #cccccc;
+}
+.sel_welfare{
+    margin: 20px 0 20px 0;
+}
+/*省市区下拉框宽度设置*/
+.main_body .content_center .job_detail .distpicker5 .location-slt{
+    width: 18%;
+}
+.form-control.diplomas{
+    width: 18%;
+}
+.form-control.lang_command{
+    width: 18%;
+}
+/*职位发布预览模块下的span对齐问题*/
+.job-demand-preview-form span{
+   display:block;
+    float: left;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+/*设置点此编辑按钮的绝对定位*/
+.job-demand-preview-form{
+    position: relative;
+}
+.job-demand-preview-edit-btn{
+    height:30px;
+    position: absolute;
+    top:0;
+    right: 0;
+    color: blue;
+}
+.job-demand-preview-edit-btn span{
+    display: inline-block;
+}
+.job-demand-preview-edit-btn span.image{
+    width: 21px;
+    height: 21px;
+    background: url("../img/edit.png") no-repeat;
+    background-size: 20px 20px;
+}
+.job-demand-preview-edit-btn:hover{
+    cursor: pointer;
+    color: red;
+}
+.job-demand-preview-edit-btn:hover.job-demand-preview-edit-btn span.image{
+    background: url("../img/edit_hover.png") no-repeat;
+    background-size: 20px 20px;
+}
+.job-demand-edit-form-confirm-buttons{
+    padding-left: 150px;
+}

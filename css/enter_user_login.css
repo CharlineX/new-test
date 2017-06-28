@@ -1,0 +1,11 @@
+.establish_enter, .apply_join_enter{
+    border:1px solid #CCC;
+    margin: 0 auto;
+    width: 80%;
+    box-shadow:3px 4px 2px #b3b7bd;
+    box-radius:5px;
+    padding:20px 30px 50px 30px;
+}
+.fen_jie_line{
+    border-bottom: 2px solid #cccccc;
+}

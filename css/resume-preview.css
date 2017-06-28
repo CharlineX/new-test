@@ -1,0 +1,251 @@
+.resume-preview-basinfo{
+    width: 100%;
+    background-color: #3f4160;
+    color: white;
+}
+.resume-preview-box{
+    width: 80%;
+    margin: 0 auto;
+    border:1px solid #ccc;
+    box-shadow: #ccc 1px ;
+}
+.resume-preview-basinfo ul{
+    list-style: none;
+}
+.resume-preview-basinfo li{
+    float: left;
+}
+.head-photo{
+    float: left;
+    width: 90px;
+    height: 130px;
+    margin: 20px 20px 10px 50px;
+}
+.photo-right{
+    float: left;
+    margin-left: 10%;
+}
+.resume-preview-job-intention{
+    padding-left: 58px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #F2F3F5;
+}
+.resume-preview-job-intention .resume-preview-jobentention-body{
+    margin-right: 60px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px #cccccc dashed;
+}
+.resume-preview-jobentention-title{
+    margin-top: 0;
+    padding-top: 20px;
+}
+.resume-preview-jobExp{
+    padding-left: 58px;
+    border-bottom:2px solid #F2F3F5;
+    background-color: #ffffff;
+}
+.resume-preview-jobExp div{
+    margin-top: 20px;
+}
+.resume-preview-jobExp ul{
+    height: 2px;
+    list-style: none;
+}
+.resume-preview-jobExp ul.resume-preview-jobExp-ul-first li{
+    margin-right:5% ;
+}
+.resume-preview-jobExp div ul li{
+    float: left;
+}
+.resume-preview-jobExp div ul .workExp-time-area{
+    color:#666666;
+}
+.resume-preview-jobExp div ul .work-name{
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    border-right: 1px solid #999999;
+    padding-right: 5px;
+}
+.resume-preview-jobExp div ul .department{
+    padding-left: 5px;
+}
+.resume-preview-jobExp ul.resume-preview-jobExp-ul-second .work-time-long{
+    color: #666666;
+}
+.resume-preview-jobExp ul.resume-preview-jobExp-ul-third li{
+    color:#666666;
+    border-right: 1px solid #999999;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.resume-preview-jobExp ul.resume-preview-jobExp-ul-third li:first-child{
+    padding-left: 0;
+}
+.resume-preview-jobExp-title{
+    margin-top: 0;
+    padding-top: 20px;
+}
+.resume-preview-proExp{
+    padding-left: 58px;
+    border-bottom:2px solid #F2F3F5;
+    background-color: #ffffff;
+}
+.resume-preview-proExp div ul{
+    list-style: none;
+    padding-top: 20px;
+    border-bottom: 1px #cccccc dashed;
+    margin-right: 60px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.resume-preview-proExp div ul .pro-exp-name{
+  font-weight: bold;
+    color: black;
+    margin-right: 5%;
+}
+.resume-preview-proExp div ul .pro-exp-time-area{
+    color: #666666;
+    margin-right: 5%;
+}
+.resume-preview-proExp div ul .pro-exp-state, .resume-preview-proExp div ul .pro-exp-statement{
+    margin-left: 80px;
+    padding-right: 60px;
+    word-break: break-all;
+    word-wrap:break-word;
+}
+.resume-preview-box .work-exp-state{
+    margin-left: 80px;
+    margin-right: 60px;
+    padding-right: 60px;
+    word-break: break-all;
+    word-wrap:break-word;
+}
+.resume-preview-proExp div ul .pro-exp-state, .resume-preview-proExp div ul .pro-exp-duty-state{
+    margin-left: 80px;
+    padding-right: 60px;
+    word-break: break-all;
+    word-wrap:break-word;
+}
+.resume-preview-proExp-title{
+    margin-top: 0;
+    padding-top: 20px;
+}
+.resume-preview-eduExp{
+    padding-left: 58px;
+    border-bottom:2px solid #F2F3F5;
+    background-color: #ffffff;
+}
+.resume-preview-eduExp div ul{
+    list-style: none;
+    padding-top: 20px;
+    margin-right: 60px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: dashed 1px #cccccc;
+}
+.resume-preview-eduExp div ul .edu-exp-area{
+    color:#666666;
+    margin-right: 5%;
+}
+.resume-preview-eduExp div ul .edu-exp-school{
+    font-weight: bold;
+    color: black;
+    margin-right: 5%;
+}
+.resume-preview-eduExp div ul .edu-exp-XL{
+    border-right: 1px solid #999999;
+    padding-right: 5px;
+}
+.resume-preview-eduExp div ul .edu-exp-marjor{
+    padding-left: 5px;
+}
+.resume-preview-eduExp-title{
+    margin-top: 0;
+    padding-top: 20px;
+}
+.resume-preview-skill{
+    padding-left: 58px;
+    border-bottom:2px solid #F2F3F5;
+    background-color: #ffffff;
+    padding-right: 60px;
+}
+.resume-preview-skill .resume-preview-skill-label{
+    float: left;
+    width: 20%;
+}
+.resume-preview-skill .resume-preview-skill-progress{
+    float: left;
+    width: 80%;
+}
+.resume-preview-skill-title{
+    margin-top: 0;
+    padding-top: 20px;
+}
+.resume-preview-cert{
+    padding-left: 58px;
+    border-bottom:2px solid #F2F3F5;
+    background-color: #ffffff;
+}
+.resume-preview-cert ul{
+    list-style: none;
+    padding-top: 20px;
+    margin-right: 60px;
+    border-bottom: 1px dashed #cccccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.resume-preview-cert-title{
+    margin-top: 0;
+    padding-top: 20px;
+}
+.resume-preview-addition{
+    padding-left: 58px;
+    border-bottom:2px solid #F2F3F5;
+    background-color: #ffffff;
+}
+.resume-preview-addition .info-addition{
+    margin-left: 80px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    word-break: break-all;
+    word-wrap:break-word;
+}
+.resume-preview-addition-title{
+    margin-top: 0;
+    padding-top: 20px;
+}
+.photo-right-ul-second li{
+    margin-left: 40px;
+}
+.photo-right ul{
+   margin-top: 12px;
+}
+.photo-right-ul-second li:first-child{
+    margin-left: 0;
+}
+.photo-right-ul-third li{
+    border-right:1px solid #999999;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.photo-right-ul-third li:last-child{
+    border-right: none;
+}
+.resume-preview-box .h3.title{
+    color:#818BA3;
+}
+.resume-preview-box .label-title{
+    color: #666666;
+    font-family: "Adobe Caslon Pro Bold";
+    display: inline-block;
+    width: 80px;
+}
+.resume-preview-box .resume-preview-jobExp .resume-preview-jobExp-content .resume-preview-jobExp-box{
+    margin-right: 60px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px #cccccc dashed;
+}

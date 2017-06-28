@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>职位搜索</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/job_list.css">
+    <link rel="stylesheet" href="../css/job_detail.css">
+</head>
+<body>
+<div class="body_container">
+    <!--顶部导航-->
+    <header>
+        <div class="navbar nav-default navbar-fixed-top" id="navJobSear" role="navigation">
+            <ul class="nav navbar-nav">
+                <li class="home">
+                    <a href="">首页</a>
+                </li>
+                <li class="job">
+                    <a href="">信息管理</a>
+                </li>
+                <li>
+                    <a href="">招聘管理</a>
+                </li>
+                <li>
+                    <a class="active" href="">职位发布</a>
+                </li>
+                <li>
+                    <a href="">用户管理</a>
+                </li>
+                <li>
+                    <a href="">招聘会</a>
+                </li>
+                <li>
+                    <a href="">通知中心</a>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </header>
+    <div class="main_body">
+        <div class="content_center">
+            <div class="job_preview">
+                <div class="job_list_container">
+                    <!--表头-->
+                    <ul class="job_list_ul first">
+                        <li>职位名称</li>
+                        <li>人数</li>
+                        <li>发布日期</li>
+                        <li>截止日期</li>
+                        <li>职位状态</li>
+                        <li>简历数</li>
+                        <li>操作</li>
+                    </ul>
+                    <!--具体职位信息-->
+                    <ul class="job_list_ul">
+                        <li>大江东</li>
+                        <li>30</li>
+                        <li>2015/5/6</li>
+                        <li>2015/6/7</li>
+                        <li>审核</li>
+                        <li>7/8</li>
+                        <li>
+                            <span class="job_list_ul_cancel glyphicon glyphicon-ban-circle" data-toggle="tooltip" data-placement="left" title="取消发布"></span>
+                            <span class="job_list_ul_modify glyphicon glyphicon-pencil" data-toggle="tooltip" data-placement="top" title="修改信息"></span>
+                            <span class="job_list_ul_delete glyphicon glyphicon-remove" data-toggle="tooltip" data-placement="top" title="删除信息"></span>
+                        </li>
+                    </ul>
+                    <ul class="job_list_ul">
+                        <li>大江东</li>
+                        <li>30</li>
+                        <li>2015/5/6</li>
+                        <li>2015/6/7</li>
+                        <li>审核</li>
+                        <li>7/8</li>
+                        <li>
+                            <span class="job_list_ul_cancel glyphicon glyphicon-ban-circle" data-toggle="tooltip" data-placement="left" title="取消发布"></span>
+                            <span class="job_list_ul_modify glyphicon glyphicon-pencil" data-toggle="tooltip" data-placement="top" title="修改信息"></span>
+                            <span class="job_list_ul_delete glyphicon glyphicon-remove" data-toggle="tooltip" data-placement="top" title="删除信息"></span>
+                        </li>
+                    </ul>
+                    <ul class="job_list_ul">
+                        <li>大江东</li>
+                        <li>30</li>
+                        <li>2015/5/6</li>
+                        <li>2015/6/7</li>
+                        <li>审核</li>
+                        <li>7/8</li>
+                        <li>
+                            <span class="job_list_ul_cancel glyphicon glyphicon-ban-circle" data-toggle="tooltip" data-placement="left" title="取消发布"></span>
+                            <span class="job_list_ul_modify glyphicon glyphicon-pencil" data-toggle="tooltip" data-placement="top" title="修改信息"></span>
+                            <span class="job_list_ul_delete glyphicon glyphicon-remove" data-toggle="tooltip" data-placement="top" title="删除信息"></span>
+                        </li>
+                    </ul>
+                    <ul class="job_list_ul">
+                        <li>大江东</li>
+                        <li>30</li>
+                        <li>2015/5/6</li>
+                        <li>2015/6/7</li>
+                        <li>审核</li>
+                        <li>7/8</li>
+                        <li>
+                            <span class="job_list_ul_cancel glyphicon glyphicon-ban-circle" data-toggle="tooltip" data-placement="left" title="取消发布"></span>
+                            <span class="job_list_ul_modify glyphicon glyphicon-pencil" data-toggle="tooltip" data-placement="top" title="修改信息"></span>
+                            <span class="job_list_ul_delete glyphicon glyphicon-remove" data-toggle="tooltip" data-placement="top" title="删除信息"></span>
+                        </li>
+                    </ul>
+                    <ul class="job_list_ul">
+                        <li>大江东</li>
+                        <li>30</li>
+                        <li>2015/5/6</li>
+                        <li>2015/6/7</li>
+                        <li>审核</li>
+                        <li>7/8</li>
+                        <li>
+                            <span class="job_list_ul_cancel glyphicon glyphicon-ban-circle" data-toggle="tooltip" data-placement="left" title="取消发布"></span>
+                            <span class="job_list_ul_modify glyphicon glyphicon-pencil" data-toggle="tooltip" data-placement="top" title="修改信息"></span>
+                            <span class="job_list_ul_delete glyphicon glyphicon-remove" data-toggle="tooltip" data-placement="top" title="删除信息"></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pagination_box form-inline">
+                    <ul class="pagination form-group ">
+                        <li><a href="">上一页</a></li>
+                        <li class="active"><a href="">2</a></li>
+                        <li><a href="">3</a></li>
+                        <li><a href="">4</a></li>
+                        <li><a href="">5</a></li>
+                        <li><a href="">6</a></li>
+                        <li><a href="">下一页</a></li>
+                    </ul>
+                    <ul class="page-jump form-group form-inline">
+                        <li class="form-control"><a href="">共20页</a></li>
+                        <input class="form-control input" type="text">
+                        <li class="form-control"><a href="">确定</a></li>
+                    </ul>
+                    <button class="btn btn-primary new_job_list">新建职位</button>
+                </div>
+            </div>
+            <div class="job_detail" style="display: none">
+                <div class="job_detail_container">
+                    <ul class="nav nav-tabs">
+                        <li class="tab-title"><a data-toggle="tab" href="#jobDeMenu01" >职位描述</a></li>
+                        <li class="tab-title"><a data-toggle="tab" href="#jobDeMenu02" >职位要求</a></li>
+                        <li class="tab-title"><a data-toggle="tab" href="#jobDeMenu03" >人才要求</a></li>
+                        <li class="btn" href=""><button class="btn btn-primary">保存</button></li>
+                        <li class="btn" href=""><button class="btn btn-primary">取消</button></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id = "jobDeMenu01">
+                            <!--预览-->
+                            <form action="" class="form-horizontal job-demand-preview-form" role="form" >
+                                <div class="job-demand-preview-edit-btn">
+                                    <span class="title">点此编辑</span>
+                                    <span class="image"></span>
+                                </div>
+                                <div class="form-group form-line">
+                                    <label for="" class="col-sm-2 control-label">职位名称</label>
+                                    <span>:</span>
+                                    <span>职位名称填写在这里</span>
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">日期</label>
+                                    <!--<span class="text-center form-control" style="border: none;box-shadow: none"></span>-->
+                                    <span>:</span>
+                                    <span>开始日期</span>
+                                    <span>-</span>
+                                    <span>截止日期</span>
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">薪资</label>
+                                    <span>:</span>
+                                    <span>这里填写薪资</span>
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">所属职能</label>
+                                    <span>:</span>
+                                    <span>这里填写职能</span>
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">工作类型</label>
+                                    <span>:</span>
+                                    <span>这里填写工作类型</span>
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label ">工作地</label>
+                                    <span>:</span>
+                                    <span>这里填写工作地</span>
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">岗位描述</label>
+                                    <span>:</span>
+                                    <span>岗位描述</span>
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">福利</label>
+                                </div>
+                                <div class="welfare_box">
+                                    <div>
+                                        <ul class="form-inline ">
+                                            <li class="form-control btn " >公积金</li>
+                                            <li class="form-control btn " >五险</li>
+                                            <li class="form-control btn  " >双休</li>
+                                            <li class="form-control btn  " >年假</li>
+                                            <li class="form-control btn  " >包吃</li>
+                                            <li class="form-control btn  " >包住</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </form>
+                            <!--编辑-->
+                            <form action="" class="form-horizontal job-demand-edit-form" role="form" style="display: none">
+                                <div class="form-group">
+                                    <label for="" class="col-sm-2 control-label">职位名称</label>
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">日期</label>
+                                    <span class="text-center form-control" style="border: none;box-shadow: none">555555</span>
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">薪资</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">所属职能</label>
+                                    <select name="" id="" class="form-control" style="width: 18%">
+                                        <option value="">11111111</option>
+                                        <option value="">22222222</option>
+                                        <option value="">32222222</option>
+                                    </select>
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">工作类型</label>
+                                    <select name="" id="" class="form-control" style="width: 18%">
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                    </select>
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label ">工作地</label>
+                                    <div class="distpicker5 form-inline">
+                                        <select name="" id="" class="form-control location-slt"></select>
+                                        <select name="" id="" class="form-control location-slt"></select>
+                                        <select name="" id="" class="form-control location-slt"></select>
+                                    </div>
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">岗位描述</label>
+                                    <textarea name="" id="" cols="30" rows="10" class="form-control job_describ" style="width:70%"></textarea>
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">福利</label>
+                                </div>
+                                <div class="welfare_box">
+                                    <div>
+                                        <ul class="form-inline ">
+                                            <li class="form-control btn  welfare_btn" >公积金</li>
+                                            <li class="form-control btn  welfare_btn" >五险</li>
+                                            <li class="form-control btn  welfare_btn" >双休</li>
+                                            <li class="form-control btn  welfare_btn" >年假</li>
+                                            <li class="form-control btn  welfare_btn" >包吃</li>
+                                            <li class="form-control btn  welfare_btn" >包住</li>
+                                        </ul>
+                                    </div>
+                                    <div class="form-inline sel_welfare">
+                                        <input class="form-control" type="text" placeholder="输入自定义福利">
+                                        <button class="new_sel_welf form-control">添加</button>
+                                    </div>
+                                </div>
+                                <div class="job-demand-edit-form-confirm-buttons">
+                                    <button class="btn btn-primary">确定</button>
+                                    <button class="btn btn-default">取消</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id = "jobDeMenu02">
+                            <!--预览-->
+                            <form action="" class="form-horizontal job-demand-preview-form" role="form" >
+                                <div class="job-demand-preview-edit-btn">
+                                    <span class="title">点此编辑</span>
+                                    <span class="image"></span>
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">需求人数</label>
+                                    <span>:</span>
+                                    <span>这里填写</span>
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">职能要求</label>
+                                    <span>:</span>
+                                    <span>这里填写</span>
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">夜班</label>
+                                    <span>:</span>
+                                    <span>这里填写</span>
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">加班</label>
+                                    <span>:</span>
+                                    <span>这里填写</span>
+                                </div>
+                            </form>
+                            <!--编辑-->
+                            <form action="" class="form-horizontal job-demand-edit-form" role="form" style="display: none">
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">需求人数</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">职能要求</label>
+                                    <textarea name="" id="" cols="30" rows="10" class="form-control" style="width: 70%"></textarea>
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">夜班</label>
+                                    <input type="radio" name="yeban" class="form-control">有
+                                    <input type="radio" name="yeban" class="form-control">无
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">加班</label>
+                                    <input type="radio" name="jiaban" class="form-control">有
+                                    <input type="radio" name="jiaban" class="form-control">无
+                                </div>
+                                <div class="job-demand-edit-form-confirm-buttons">
+                                    <button class="btn btn-primary">确定</button>
+                                    <button class="btn btn-default">取消</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id = "jobDeMenu03">
+                            <!--预览-->
+                            <form action="" class="form-horizontal job-demand-preview-form" role="form">
+                                <div class="job-demand-preview-edit-btn">
+                                    <span class="title">点此编辑</span>
+                                    <span class="image"></span>
+                                </div>
+                                <!--学历要求-->
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">学历要求</label>
+                                    <span>:</span>
+                                    <span>这里填写</span>
+                                </div>
+                                <!--经验要求-->
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">经验要求</label>
+                                    <span>:</span>
+                                    <span>这里填写</span>
+                                </div>
+                                <!--性别要求-->
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">性别要求</label>
+                                    <span>:</span>
+                                    <span>这里填写</span>
+                                </div>
+                                <!--身高要求-->
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">身高要求</label>
+                                    <span>:</span>
+                                    <span>这里填写</span>
+                                </div>
+                                <!--语言要求-->
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">语言要求</label>
+                                    <span>:</span>
+                                    <span>这里填写</span>
+                                </div>
+                            </form>
+                            <!--编辑-->
+                            <form action="" class="form-horizontal job-demand-edit-form" role="form" style="display:none;">
+                                <!--学历要求-->
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">学历要求</label>
+                                    <select name="" id="" class="form-control diplomas"></select>
+                                </div>
+                                <!--经验要求-->
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">经验要求</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <!--性别要求-->
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">性别要求</label>
+                                    <input type="radio" class="form-control" name="sex_demand">男
+                                    <input type="radio" class="form-control" name="sex_demand">女
+                                </div>
+                                <!--身高要求-->
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">身高要求</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <!--语言要求-->
+                                <div class="form-group form-inline">
+                                    <label for="" class="col-sm-2 control-label">语言要求</label>
+                                    <select name="" id="" class="form-control lang_command">
+                                        <option value="">英语</option>
+                                        <option value="">法语</option>
+                                        <option value="">德语</option>
+                                    </select>
+                                </div>
+                                <div class="job-demand-edit-form-confirm-buttons">
+                                    <button class="btn btn-primary">确定</button>
+                                    <button class="btn btn-default">取消</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <div class="foot_con">中国科学院上海技术物理研究所杭州大江东空间信息技术研究院</div>
+    </footer>
+</div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+<script src="../js/jquery-1.12.2.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/job_manage_list.js"></script>
+<script src="../js/job_detail_manage.js"></script>
+<script src="../js/省市区三级联动插件js/distpicker.data.js"></script>
+<script src="../js/省市区三级联动插件js/distpicker.js"></script>
+<script src="../js/省市区三级联动插件js/main.js"></script>
+<script src="../js/常量表/edu_arr.js"></script>
+<script src="../js/常量表/edu_func.js"></script>
+</html>
