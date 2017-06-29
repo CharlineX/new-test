@@ -259,8 +259,8 @@ a {
     line-height: 33px;
     color: #fd5f39;
 }
-.company_main .company_word {
-    margin-top: 20px;
+.company_main .company_word{
+    margin-top: 40px;
     font-size: 16px;
     clear: both;
 }
@@ -269,35 +269,38 @@ a {
     background: #fafafa;
     overflow: hidden;
 }
-.company_data ul {
-    margin-left: -1px;
-    padding: 8px 0;
-    font-size: 0;
-}
-.company_data li {
+/*.company_data li {
     display: inline-block;
     width: 120px;
     border-left: 1px solid #ededed;
     text-align: center;
-}
-.company_data li strong {
+}*/
+/*.company_data li strong {
     font-size: 18px;
     font-weight: 100;
-    color: #555;
+    
+}*/
+.company_data{
+	margin-left: 20px;
+    margin-top: 10px;
 }
-.company_data li span {
+.company_data  span {
     display: inline-block;
     vertical-align: middle;
     line-height: 18px;
     font-size: 12px;
-    color: #b7b7b7;
+    /*color: #b7b7b7;*/
+    color: #555;
+    
 }
-.company_data span.tip {
-    width: 20px;
-    height: 15px;
-    margin-left: -6px;
-    vertical-align: -4px;
-    background: url() right center no-repeat;
+.company_data  p {
+    
+    vertical-align: middle;
+    line-height: 18px;
+    font-size: 12px;
+    /*color: #b7b7b7;*/
+    color: #555;
+    margin-top: 10px;
 }
 #main_container {
     width: 1024px;
@@ -394,7 +397,8 @@ a {
 }
 #container_right {
     float: right;
-    width: 245px;
+    width: 280px;
+   
 }
 #basic_container .item_content>ul>li {
     height: 30px;
@@ -514,6 +518,144 @@ a {
     color: #555;
     cursor: pointer;
 }
+#container_right .item_container li span{
+	display: block;
+	width: 250px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap; 
+	word-break:keep-all;
+}
 
-
+/*---------学生首页-----------*/
+.new_section {
+    width: 900px;
+    margin-left: 50px;
+}
+.new_section>dl {
+    background-color: #fafafa;
+    margin-bottom: 175px;
+}
+.new_section>dl dt {
+    background: #fafafa;
+    height: 50px;
+    border-bottom: 1px solid #ebebeb;
+    position: relative;
+    padding: 10px 0 0 20px;
+}
+dt,dd,form {
+    display: block;
+}
+.new_section>dl dt h1 {
+    font-size: 24px;
+    color: #555;
+}
+.new_section h1 {
+    font-weight: 400;
+    line-height: 42px;
+    margin: 0 0 20px;
+}
+.d_refresh {
+    font-size: 16px;
+    font-weight: normal;
+    color: #555;
+    background: url() left center no-repeat;
+    padding-left: 20px;
+    position: absolute;
+    right: 35px;
+    top: 16px;
+}
+.new_section>dl dd {
+    min-height: 300px;
+    padding: 20px 0;
+    clear: both;
+}
+.delivery_tabs {
+    background-color: #f2f2f2;
+    padding: 0;
+}
+.delivery_tabs{
+	/*margin-left: 23px;*/
+}
+ul.reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.delivery_tabs li.current {
+    border-bottom: 2px solid #3f77e6;
+}
+.delivery_tabs li.current a, .delivery_tabs li:hover a {
+    color: #3f77e6;
+}
+.delivery_tabs li a.all_border {
+    border: 0;
+}
+.delivery_tabs li {
+    position: relative;
+    font-size: 0;
+    padding: 16px 0 13px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.delivery_tabs li a {
+    display: block;
+    padding: 0 26px 0 25px;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 16px;
+    color: #777;
+    border-left: 1px solid #d8d8d8;
+}
+.delivery_tabs li.last a {
+    border-right: 0;
+}
+ul.my_delivery {
+    margin: 20px 34px 20px 29px;
+}
+.my_delivery li {
+    margin-bottom: 30px;
+    background: #fff;
+    position: relative;
+}
+.my_delivery .d_item {
+    border-left: 3px solid #3f77e6;
+    padding: 3px 12px;
+}
+.my_delivery .d_job {
+    margin: 0;
+    padding: 5px 0;
+    font-weight: 400;
+}
+.my_delivery .d_company {
+    margin: 5px 0;
+    font-size: 16px;
+}
+.my_delivery .d_company a {
+    color: #555;
+}
+.my_delivery .d_company span {
+    color: #999;
+}
+.my_delivery .d_resume {
+    margin: 5px 0;
+    color: #999;
+}
+.my_delivery .d_resume_type {
+    color: #333;
+}
+.my_delivery .d_job .d_job_name {
+    font-size: 18px;
+    color: #3f77e6;
+}
+.my_delivery .d_time {
+    float: right;
+    color: #999;
+}
+.my_delivery .d_time b{
+    font-weight: normal;
+}
+em, i {
+    font-style: normal;
+}
 
